@@ -1,0 +1,1 @@
+<script src="{{ mix('css/app.css') }}" type="application/javascript"></script>
