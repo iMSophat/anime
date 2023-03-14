@@ -6,7 +6,7 @@
 </div>
 
 <div class="p-4 flex gap-3 overflow-x-auto items-center" id="label-button-section">
-    <x-label-button href="" title="Lable"/>
+    <x-label-button href="" title=""/>
 </div>
 
 <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4" id="video-card-section">
@@ -14,5 +14,7 @@
         <x-card-holder />
     @endfor
 </div>
+
+<x-test-comoponent/>
 
 @endsection
