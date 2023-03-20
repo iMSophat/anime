@@ -563,6 +563,9 @@ video {
   height: -moz-fit-content;
   height: fit-content;
 }
+.h-40 {
+  height: 10rem;
+}
 .max-h-\[calc\(100vh_-_56px\)\] {
   max-height: calc(100vh - 56px);
 }
@@ -651,11 +654,17 @@ video {
 .gap-5 {
   gap: 1.25rem;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .overflow-x-auto {
   overflow-x: auto;
 }
 .overflow-y-auto {
   overflow-y: auto;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -744,6 +753,14 @@ video {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -758,6 +775,12 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.font-medium {
+  font-weight: 500;
+}
+.leading-5 {
+  line-height: 1.25rem;
+}
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(7 31 67 / var(--tw-text-opacity));
@@ -765,6 +788,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -774,6 +801,18 @@ video {
 .shadow-slate-100 {
   --tw-shadow-color: #f1f5f9;
   --tw-shadow: var(--tw-shadow-colored);
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;

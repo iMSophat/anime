@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class videoCard extends Component
 {
+    public $videoCard;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($videoCard)
     {
-        //
+        $this->videoCard = $videoCard;
     }
 
     /**
