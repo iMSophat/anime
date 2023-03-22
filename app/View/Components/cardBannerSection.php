@@ -4,17 +4,17 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class labelButton extends Component
+class cardBannerSection extends Component
 {
-    public $title;
+    public $cardBannerSectionData;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title)
+    public function __construct($cardBannerSectionData)
     {
-        $this->title    = $title;
+        $this->cardBannerSectionData = $cardBannerSectionData;
     }
 
     /**
@@ -24,6 +24,6 @@ class labelButton extends Component
      */
     public function render()
     {
-        return view('components.label-button');
+        return view('components.card-banner-section');
     }
 }

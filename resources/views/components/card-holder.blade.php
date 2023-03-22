@@ -1,10 +1,10 @@
-<div class="col-span-1 flex flex-col gap-2 animate-pulse">
-    <div class="p-5 h-36 rounded-xl bg-slate-200"></div>
-    <div class="flex gap-5">
-        <div class="w-full flex flex-col gap-2">
-            <h1 class="h-4 rounded-full bg-slate-200"></h1>
-            <p class="h-3 rounded-full w-1/2 bg-slate-200"></p>
+<div class="pphat-col-span-1 pphat-flex pphat-flex-col pphat-gap-2 pphat-animate-pulse">
+    <div class="pphat-p-5 pphat-h-36 pphat-rounded-xl pphat-bg-slate-200"></div>
+    <div class="pphat-flex pphat-gap-5">
+        <div class="pphat-w-full pphat-flex pphat-flex-col pphat-gap-2">
+            <h1 class="pphat-h-4 pphat-rounded-full pphat-bg-slate-200"></h1>
+            <p class="pphat-h-3 pphat-rounded-full pphat-w-1/2 pphat-bg-slate-200"></p>
         </div>
-        <div class="w-12 h-12 flex-shrink-0 rounded-full bg-slate-200"></div>
+        <div class="pphat-w-12 pphat-h-12 pphat-flex-shrink-0 pphat-rounded-full pphat-bg-slate-200"></div>
     </div>
 </div>

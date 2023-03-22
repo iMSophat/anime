@@ -9,13 +9,13 @@
     @yield('style')
 </head>
 <body>
-    <header class="w-full shadow-2xl shadow-slate-100 flex items-center px-4">
+    <header class="pphat-w-full pphat-shadow-2xl pphat-shadow-slate-100 pphat-flex pphat-items-center pphat-px-4">
         <x-headers header="header"/>
     </header>
-    <main class="container mx-auto flex">
+    <main class="pphat-container pphat-mx-auto pphat-flex">
         
         <x-sidebar />
-        <div class="w-full h-fit max-h-[calc(100vh_-_56px)] overflow-y-auto">
+        <div class="pphat-w-full pphat-h-fit pphat-max-h-[calc(100vh_-_56px)] pphat-overflow-y-auto">
             @yield('content')
         </div>
 

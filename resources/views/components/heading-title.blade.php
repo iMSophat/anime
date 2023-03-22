@@ -1,0 +1,1 @@
+<h1 class="pphat-font-medium pphat-px-4 pphat-py-2">{{ $title }}</h1>

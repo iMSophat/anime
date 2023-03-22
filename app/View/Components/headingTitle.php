@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class labelButton extends Component
+class headingTitle extends Component
 {
     public $title;
     /**
@@ -14,7 +14,7 @@ class labelButton extends Component
      */
     public function __construct($title)
     {
-        $this->title    = $title;
+        $this->title = $title;
     }
 
     /**
@@ -24,6 +24,6 @@ class labelButton extends Component
      */
     public function render()
     {
-        return view('components.label-button');
+        return view('components.heading-title');
     }
 }

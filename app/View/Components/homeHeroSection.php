@@ -4,17 +4,17 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class labelButton extends Component
+class homeHeroSection extends Component
 {
-    public $title;
+    public $heroSection;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title)
+    public function __construct($heroSection)
     {
-        $this->title    = $title;
+        $this->heroSection = $heroSection;
     }
 
     /**
@@ -24,6 +24,6 @@ class labelButton extends Component
      */
     public function render()
     {
-        return view('components.label-button');
+        return view('components.home-hero-section');
     }
 }
