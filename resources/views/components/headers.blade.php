@@ -1,7 +1,7 @@
 <div class="pphat-container pphat-mx-auto pphat-items-center pphat-justify-between pphat-flex pphat-gap-1 pphat-py-1">
     <div class="pphat-flex-shrink-0 pphat-flex pphat-items-center pphat-justify-center">
         <button type="button" class="pphat-h-8 pphat-flex pphat-items-center pphat-px-2 pphat-justify-center pphat-rounded-md">
-            <svg class="h-6" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="pphat-h-6" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.375 10.7083H30.625" stroke="#292D32" stroke-width="2.91667" stroke-linecap="round"/>
                 <path d="M4.375 19.4583H21.875" stroke="#292D32" stroke-width="2.91667" stroke-linecap="round"/>
                 <path d="M4.375 28.2083H14.5833" stroke="#292D32" stroke-width="2.91667" stroke-linecap="round"/>
@@ -30,7 +30,7 @@
     <div class="pphat-flex pphat-gap-2 pphat-items-center">
 
         <button class="pphat-flex pphat-rounded-full pphat-w-7 pphat-h-7 pphat-items-center pphat-justify-center">
-            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="pphat-w-4 pphat-h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.75 2.5C10.5114 2.5 9.5 3.51136 9.5 4.75C9.5 5.98864 10.5114 7 11.75 7C12.9886 7 14 5.98864 14 4.75C14 3.51136 12.9886 2.5 11.75 2.5Z" fill="#071F43" stroke="#071F43" stroke-linejoin="round"/>
                 <path d="M11.75 10C10.5114 10 9.5 11.0114 9.5 12.25C9.5 13.4886 10.5114 14.5 11.75 14.5C12.9886 14.5 14 13.4886 14 12.25C14 11.0114 12.9886 10 11.75 10Z" fill="#071F43" stroke="#071F43" stroke-linejoin="round"/>
                 <path d="M11.75 17.5C10.5114 17.5 9.5 18.5114 9.5 19.75C9.5 20.9886 10.5114 22 11.75 22C12.9886 22 14 20.9886 14 19.75C14 18.5114 12.9886 17.5 11.75 17.5Z" fill="#071F43" stroke="#071F43" stroke-linejoin="round"/>
