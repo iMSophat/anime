@@ -1,0 +1,12 @@
+.sidebar {
+    @apply pphat-bg-white pphat-transition-all pphat-shadow-2xl pphat-px-2 pphat-pt-4 pphat-shadow-slate-100 pphat-h-[calc(100vh_-_56px)] pphat-flex-shrink-0 pphat-w-72 pphat-overflow-y-auto;
+}
+.sidebar.collapsed {
+    @apply pphat-w-16;
+}
+.sidebar.collapsed .title {
+    @apply pphat-overflow-hidden pphat-w-0 pphat-p-0 pphat-m-0 pphat-transition-all pphat-line-clamp-1 pphat-duration-300
+}
+.sidebar.collapsed li>a>svg {
+    @apply pphat-w-7 pphat-h-7
+}

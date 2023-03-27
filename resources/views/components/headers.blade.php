@@ -1,6 +1,6 @@
 <div class="pphat-container pphat-mx-auto pphat-items-center pphat-justify-between pphat-flex pphat-gap-1 pphat-py-1">
     <div class="pphat-flex-shrink-0 pphat-flex pphat-items-center pphat-justify-center">
-        <button type="button" class="pphat-h-8 pphat-flex pphat-items-center pphat-px-2 pphat-justify-center pphat-rounded-md">
+        <button type="button" class="pphat-h-8 sidebar-toggle js-sidebar-toggle pphat-flex pphat-items-center pphat-px-2 pphat-justify-center pphat-rounded-md">
             <svg class="pphat-h-6" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.375 10.7083H30.625" stroke="#292D32" stroke-width="2.91667" stroke-linecap="round"/>
                 <path d="M4.375 19.4583H21.875" stroke="#292D32" stroke-width="2.91667" stroke-linecap="round"/>

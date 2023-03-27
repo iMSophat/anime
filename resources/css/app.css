@@ -9,4 +9,6 @@
     * {
         @apply pphat-font-roboto;
     }
+    @import url("./components/sidebar.css");
+    
 }
