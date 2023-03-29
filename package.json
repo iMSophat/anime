@@ -15,11 +15,9 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.4.21",
-        "tailwindcss": "^3.2.7",
-        "simplebar": "5.3.8"
+        "tailwindcss": "^3.2.7"
     },
     "dependencies": {
-        "@tailwindcss/line-clamp": "^0.4.2",
-        "daisyui": "^2.51.5"
+        "@tailwindcss/line-clamp": "^0.4.2"
     }
 }

@@ -1,0 +1,1 @@
+<button class="py-1.5 px-3">Button</button>

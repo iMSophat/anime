@@ -1,14 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-@import url("./components/font.css");
-
-@layer base {
-    * {
-        @apply pphat-font-roboto;
-    }
-    @import url("./components/sidebar.css");
-    
-}
