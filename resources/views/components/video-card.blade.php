@@ -1,4 +1,5 @@
 @foreach ($videoCard as $item)
+<a href="" rel="unfollow">
     <div class="pphat-flex pphat-flex-col pphat-gap-1 pphat-overflow-hidden">
         <img class="pphat-h-40 pphat-object-cover pphat-rounded-xl pphat-w-full" src="{{ $item['profile'] ?? '' }}" alt="">
         <div class="pphat-flex pphat-gap-3 pphat-py-3 pphat-items-center">
@@ -17,4 +18,5 @@
             <img class="pphat-flex-shrink-0 pphat-w-12 pphat-h-12 pphat-rounded-full pphat-object-cover" src="{{ $item['profile'] ?? '' }}" alt="">
         </div>
     </div>
+</a>
 @endforeach
