@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class labelButton extends Component
 {
-    public $title;
+    public $href, $title;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title)
+    public function __construct($href, $title)
     {
+        $this->href     = $href;
         $this->title    = $title;
     }
 

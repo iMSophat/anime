@@ -1,1 +1,1 @@
-<script src="{{ mix('js/app.js') }}" type="application/javascript"></script>
+<script src="{{ mix('css/app.css') }}" type="application/javascript"></script>

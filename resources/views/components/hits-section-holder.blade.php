@@ -1,19 +1,19 @@
-<div class="pphat-col-span-1 pphat-bg-slate-100 pphat-flex pphat-flex-col pphat-gap-4 pphat-rounded-xl pphat-p-4">
+<div class="col-span-1 bg-slate-100 flex flex-col gap-4 rounded-xl p-4">
     <div>
-        <div class="pphat-h-4 pphat-rounded-full pphat-bg-slate-300 pphat-w-20 pphat-animate-pulse"></div>
+        <div class="h-4 rounded-full bg-slate-300 w-20 animate-pulse"></div>
     </div>
-    <div class="pphat-py-14 pphat-flex pphat-flex-col pphat-gap-3 pphat-animate-pulse">
-        <div class="pphat-h-3 pphat-rounded-full pphat-bg-slate-300 pphat-w-32"></div>
-        <div class="pphat-h-6 pphat-rounded-full pphat-bg-slate-300 pphat-w-1/2"></div>
-        <div class="pphat-h-3 pphat-rounded-full pphat-bg-slate-300 pphat-w-1/3"></div>
-        <div class="pphat-pt-3">
-            <div class="pphat-h-8 pphat-rounded-full pphat-bg-slate-300 pphat-w-20"></div>
+    <div class="py-14 flex flex-col gap-3 animate-pulse">
+        <div class="h-3 rounded-full bg-slate-300 w-32"></div>
+        <div class="h-6 rounded-full bg-slate-300 w-1/2"></div>
+        <div class="h-3 rounded-full bg-slate-300 w-1/3"></div>
+        <div class="pt-3">
+            <div class="h-8 rounded-full bg-slate-300 w-20"></div>
         </div>
     </div>
-    <div class="pphat-grid pphat-gap-4 pphat-grid-cols-4 pphat-animate-pulse">
-        <div class="pphat-col-span-1 pphat-h-32 pphat-rounded-xl pphat-bg-slate-200"></div>
-        <div class="pphat-col-span-1 pphat-h-32 pphat-rounded-xl pphat-bg-slate-200"></div>
-        <div class="pphat-col-span-1 pphat-h-32 pphat-rounded-xl pphat-bg-slate-200"></div>
-        <div class="pphat-col-span-1 pphat-h-32 pphat-rounded-xl pphat-bg-slate-200"></div>
+    <div class="grid gap-4 grid-cols-4 animate-pulse">
+        <div class="col-span-1 h-32 rounded-xl bg-slate-200"></div>
+        <div class="col-span-1 h-32 rounded-xl bg-slate-200"></div>
+        <div class="col-span-1 h-32 rounded-xl bg-slate-200"></div>
+        <div class="col-span-1 h-32 rounded-xl bg-slate-200"></div>
     </div>
 </div>

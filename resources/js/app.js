@@ -1,1 +1,1 @@
-import './utils/Sidebar'
+require('./bootstrap');

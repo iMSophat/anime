@@ -1,10 +1,23 @@
+@php
+    $label = [
+        "0"=> [
+            "title"=> "Lable",
+            "route"=> "URL"
+        ]
+    ]
+@endphp
 
-<div class="pphat-carousel pphat-rounded-box pphat-gap-5">
-    @foreach ($title as $item)
-        <div class="pphat-carousel-item">
-            <a href="{{ $item['route'] ?? '' }}" class="pphat-bg-primary pphat-flex-shrink-0 pphat-text-sm pphat-text-white pphat-p-1.5 pphat-px-4 pphat-rounded-full">
-                {{ $item['title'] ?? '' }}
-            </a>
-        </div>
-    @endforeach
-</div>
+@foreach ($label as $key=>$item)
+    <a href="{{ $href }}" class="bg-primary text-sm text-white p-1.5 px-4 rounded-full">
+        {{ $item['title'] ?? '' }}
+    </a>
+
+    <a href="{{ $href }}" class="text-primary border border-primary text-sm bg-white p-1.5 px-4 rounded-full">
+        {{ $item['title'] ?? '' }}
+    </a>
+@endforeach
+
+
+
+
+
