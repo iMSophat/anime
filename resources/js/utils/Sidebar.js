@@ -11,7 +11,7 @@ const initializeSidebarCollapse = () => {
     if(sidebarElement && sidebarToggleElement) {
         sidebarToggleElement.addEventListener("click", () => {
             sidebarElement.classList.toggle("collapsed");
-            cardSection.classList.toggle('xl:pphat-grid-cols-5')
+            cardSection.classList.toggle('xl:grid-cols-5')
             sidebarElement.addEventListener("transitionend", () => {
                 window.dispatchEvent(new Event("resize"));
             });

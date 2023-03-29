@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\playerContoller;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,6 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test.exmaple');
 });
+
+
+Route::get('/watch/{every}', [playerContoller::class, 'index']);

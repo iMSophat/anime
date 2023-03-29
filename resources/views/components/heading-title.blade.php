@@ -1,1 +1,1 @@
-<h1 class="pphat-font-medium pphat-px-4 pphat-py-2">{{ $title }}</h1>
+<h1 class="font-medium px-4 py-2">{{ $title }}</h1>

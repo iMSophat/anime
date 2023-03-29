@@ -1,18 +1,18 @@
-<div class="pphat-bg-black pphat-rounded-xl pphat-h-[30rem] pphat-overflow-hidden pphat-relative">
-    <img class="pphat-h-full pphat-absolute pphat-top-0 pphat-w-full pphat-object-cover" src="https://images5.alphacoders.com/587/587597.jpg" alt="">
-    <div class="pphat-absolute pphat-bg-gradient-to-r pphat-left-0 pphat-right-0 pphat-top-0 pphat-h-full pphat-w-full pphat-z-10 pphat-from-black/90 pphat-via-black/50 pphat-to-red-600/0"></div>
+<div class="bg-black rounded-xl h-[30rem] overflow-hidden relative">
+    <img class="h-full absolute top-0 w-full object-cover" src="https://images5.alphacoders.com/587/587597.jpg" alt="">
+    <div class="absolute bg-gradient-to-r left-0 right-0 top-0 h-full w-full z-10 from-black/90 via-black/50 to-red-600/0"></div>
 
-    <div class="pphat-absolute pphat-h-full pphat-w-full pphat-flex pphat-p-5 pphat-flex-col pphat-gap-7 pphat-z-30 pphat-top-0 pphat-left-0 pphat-right-0">
+    <div class="absolute h-full w-full flex p-5 flex-col gap-7 z-30 top-0 left-0 right-0">
         
         
         <div>
-            <button class="pphat-font-medium pphat-text-slate-100 pphat-text-base pphat-bg-black/10 pphat-w-auto pphat-rounded-md">Feature</button>
+            <button class="font-medium text-slate-100 text-base bg-black/10 w-auto rounded-md">Feature</button>
         </div>
 
-        <div class="pphat-flex pphat-flex-col pphat-gap-1">
-            <p class="pphat-text-base pphat-font-medium pphat-text-slate-400">Front End Intergradation</p>    
-            <h1 class="pphat-text-4xl pphat-font-bold pphat-w-1/2 pphat-line-clamp-2 pphat-text-white">Front End Intergradation Front End Intergradation</h1>
-            <p class="pphat-text-sm pphat-text-slate-300">Front End IntergradationFront End Intergradation</p> 
+        <div class="flex flex-col gap-1">
+            <p class="text-base font-medium text-slate-400">Front End Intergradation</p>    
+            <h1 class="text-4xl font-bold w-1/2 line-clamp-2 text-white">Front End Intergradation Front End Intergradation</h1>
+            <p class="text-sm text-slate-300">Front End IntergradationFront End Intergradation</p> 
         </div>
 
         <div>

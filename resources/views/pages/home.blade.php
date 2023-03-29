@@ -1,7 +1,12 @@
 @extends('layouts.master')
+@section('sidebar')
+
+<x-sidebar />
+
+@endsection
 @section('content')
 
-<div class="pphat-p-4" id="hits-section">
+<div class="p-4" id="hits-section">
     {{-- <x-hits-section-holder/> --}}
     <x-home-hero-section hero-section=""/>
     
@@ -9,7 +14,7 @@
 
 <x-heading-title title="Categories"/>
 
-<div class="pphat-p-4 pphat-flex pphat-gap-3 pphat-flex-wrap pphat-overflow-x-auto pphat-items-center" id="label-button-section">
+<div class="p-4 flex gap-3 flex-wrap overflow-x-auto items-center" id="label-button-section">
     @php
         $label = [
             [
@@ -43,7 +48,7 @@
 
 <x-heading-title title="Random"/>
 
-<div class="pphat-grid pphat-grid-cols-2 md:pphat-grid-cols-3 xl:pphat-grid-cols-4 pphat-gap-5 pphat-p-4" id="video-card-section">
+<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4" id="video-card-section">
     {{-- <x-card-holder /> --}}
     @for ($i = 0; $i < 30; $i++)
         @php

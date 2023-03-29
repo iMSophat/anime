@@ -1,9 +1,9 @@
 .pace {
-    @apply pphat-pointer-events-none pphat-select-none;
+    @apply pointer-events-none select-none;
 }
 
 .pace-inactive {
-    @apply pphat-hidden;
+    @apply hidden;
 }
 
 .pace .pace-progress {
