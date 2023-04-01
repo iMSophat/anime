@@ -2,7 +2,7 @@
     <div class="min-h-fit">
         <ul>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center bg-secondary text-base">
+                <a href="{{route("home")}}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center  {{ url()->current() == route("home") ? 'bg-secondary': null }}  text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 32" fill="none">
                         <path d="M12.213 4.35915L5.36321 9.69665C4.21946 10.5862 3.29175 12.4798 3.29175 13.9158V23.3327C3.29175 26.281 5.69362 28.6956 8.64196 28.6956H23.3582C26.3065 28.6956 28.7084 26.281 28.7084 23.3454V14.0937C28.7084 12.556 27.679 10.5862 26.4209 9.70936L18.5672 4.20665C16.788 2.96123 13.9286 3.02477 12.213 4.35915Z" stroke="#071F43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M21.7188 15.3646L16.3813 20.7021L14.3479 17.6521L10.2812 21.7187" stroke="#071F43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{route("trending")}}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center {{ url()->current() == route("trending") ? 'bg-secondary': null }} hover:bg-secondary text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.49316 23.0656V20.435" stroke="#121212" stroke-width="1.5" stroke-linecap="round"/>
                         <path d="M16 23.0656V17.8044" stroke="#121212" stroke-width="1.5" stroke-linecap="round"/>
