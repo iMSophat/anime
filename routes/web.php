@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\playerContoller;
+use App\Http\Controllers\trendingController;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home');
-});
+})->name('home');
 
 Route::get('/test', function () {
     return view('test.exmaple');
@@ -25,3 +26,5 @@ Route::get('/test', function () {
 
 
 Route::get('/watch/{every}', [playerContoller::class, 'index']);
+
+Route::get('/trending', [trendingController::class, 'indexTrending'])->name('trending');
