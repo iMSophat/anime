@@ -8,6 +8,6 @@ class trendingController extends Controller
 {
     public function indexTrending()
     {
-        return view('trending.trending');
+        return view('pages.trending');
     }
 }
