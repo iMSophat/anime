@@ -56,7 +56,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{ route('wallpaper.index') }}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base {{ url()->current() == route("wallpaper.index") ? 'bg-secondary': null }}">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.1876 27.9584H19.8126C26.1667 27.9584 28.7084 25.4167 28.7084 19.0625V11.4375C28.7084 5.08335 26.1667 2.54169 19.8126 2.54169H12.1876C5.83341 2.54169 3.29175 5.08335 3.29175 11.4375V19.0625C3.29175 25.4167 5.83341 27.9584 12.1876 27.9584Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M12.1874 12.7083C13.5911 12.7083 14.7291 11.5704 14.7291 10.1667C14.7291 8.76294 13.5911 7.625 12.1874 7.625C10.7837 7.625 9.64575 8.76294 9.64575 10.1667C9.64575 11.5704 10.7837 12.7083 12.1874 12.7083Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
