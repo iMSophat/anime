@@ -19,35 +19,13 @@
             <x-button-primary fun="" title="Button"/>
         </div>
 
-
-        @php
-            $bannerCard = [
-                [
-                    "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
-                    "name"=>"ewr",
-                    "route"=>"wre"
-                ],[
-                    "img"=>"https://m.media-amazon.com/images/I/811WvXGGgIL.png",
-                    "name"=>"ewr",
-                    "route"=>"wre"
-                ],[
-                    "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
-                    "name"=>"ewr",
-                    "route"=>"wre"
-                ],[
-                    "img"=>"https://blog.busuu.com/wp-content/uploads/2021/08/learn-japanese-anime.jpg",
-                    "name"=>"ewr",
-                    "route"=>"wre"
-                ],[
-                    "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
-                    "name"=>"ewr",
-                    "route"=>"wre"
-                ]
-            ];
-        @endphp
-        <div>
-            <x-card-banner-section :card-banner-section-data="$bannerCard"/>
-        </div>
+        <section class="slide flex gap-5">
+            @foreach ($trendingVideos as $item)
+                <div class="w-full px-2">
+                    <img class="w-full h-40 max-h-40 object-cover rounded-xl" src="{{ $item['img'] }}" alt="{{ $item['name'] }}">
+                </div>
+            @endforeach
+        </section>
 
     </div>
 </div>

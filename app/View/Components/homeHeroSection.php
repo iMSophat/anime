@@ -6,15 +6,19 @@ use Illuminate\View\Component;
 
 class homeHeroSection extends Component
 {
-    public $heroSection;
+    public $heroSection,$trendingVideos;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($heroSection)
+    public function __construct(
+        $heroSection = "",
+        $trendingVideos = ""
+    )
     {
         $this->heroSection = $heroSection;
+        $this->trendingVideos = $trendingVideos;
     }
 
     /**
