@@ -30,7 +30,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{ route('category.index') }}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base {{ url()->current() == route("category.index") ? 'bg-secondary': null }}">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.00723 2.54169H16.3177C17.2581 2.54169 18.0333 3.3169 18.0333 4.25732V6.13813C18.0333 6.82438 17.6012 7.67586 17.1818 8.10794L13.4965 11.3613C12.9881 11.7934 12.6449 12.6448 12.6449 13.331V17.0165C12.6449 17.5248 12.3018 18.2111 11.8698 18.4779L10.6752 19.2531C9.55684 19.9394 8.0191 19.1642 8.0191 17.7917V13.2548C8.0191 12.6575 7.676 11.8823 7.33287 11.4502L4.07954 8.01898C3.64746 7.58689 3.30435 6.82438 3.30435 6.30334V4.33357C3.29164 3.3169 4.06681 2.54169 5.00723 2.54169Z" stroke="#121212" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M3.29175 15.25V19.0625C3.29175 25.4167 5.83341 27.9584 12.1876 27.9584H19.8126C26.1667 27.9584 28.7084 25.4167 28.7084 19.0625V11.4375C28.7084 7.47253 27.7171 4.98168 25.4169 3.68543C24.7688 3.31689 23.4726 3.0373 22.2907 2.84668" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
