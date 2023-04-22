@@ -3335,15 +3335,18 @@ html {
   -webkit-line-clamp: 2;
 }
 
+
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(239 239 239 / var(--tw-bg-opacity));
 }
 
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 
 @media (min-width: 640px) {
 
@@ -3356,12 +3359,14 @@ html {
   }
 }
 
+
 @media (min-width: 768px) {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
 
 @media (min-width: 1280px) {
 
