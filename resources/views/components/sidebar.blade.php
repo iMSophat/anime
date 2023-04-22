@@ -2,7 +2,7 @@
     <div class="min-h-fit">
         <ul>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center bg-secondary text-base">
+                <a href="{{route("home.index")}}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center  {{ url()->current() == route("home.index") ? 'bg-secondary': null }}  text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 32" fill="none">
                         <path d="M12.213 4.35915L5.36321 9.69665C4.21946 10.5862 3.29175 12.4798 3.29175 13.9158V23.3327C3.29175 26.281 5.69362 28.6956 8.64196 28.6956H23.3582C26.3065 28.6956 28.7084 26.281 28.7084 23.3454V14.0937C28.7084 12.556 27.679 10.5862 26.4209 9.70936L18.5672 4.20665C16.788 2.96123 13.9286 3.02477 12.213 4.35915Z" stroke="#071F43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M21.7188 15.3646L16.3813 20.7021L14.3479 17.6521L10.2812 21.7187" stroke="#071F43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{route("trending.index")}}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center {{ url()->current() == route("trending.index") ? 'bg-secondary': null }} hover:bg-secondary text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.49316 23.0656V20.435" stroke="#121212" stroke-width="1.5" stroke-linecap="round"/>
                         <path d="M16 23.0656V17.8044" stroke="#121212" stroke-width="1.5" stroke-linecap="round"/>
@@ -44,7 +44,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{ route('anime.index') }}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary {{ url()->current() == route("anime.index") ? 'bg-secondary': null }} text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.1876 27.9584H19.8126C26.1667 27.9584 28.7084 25.4167 28.7084 19.0625V11.4375C28.7084 5.08335 26.1667 2.54169 19.8126 2.54169H12.1876C5.83341 2.54169 3.29175 5.08335 3.29175 11.4375V19.0625C3.29175 25.4167 5.83341 27.9584 12.1876 27.9584Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M12.3147 15.25V13.3692C12.3147 10.9419 14.0303 9.96335 16.1272 11.1706L17.7539 12.1111L19.3805 13.0515C21.4774 14.2588 21.4774 16.2413 19.3805 17.4486L17.7539 18.389L16.1272 19.3294C14.0303 20.5367 12.3147 19.5454 12.3147 17.1309V15.25Z" stroke="#121212" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -56,7 +56,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{ route('wallpaper.index') }}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base {{ url()->current() == route("wallpaper.index") ? 'bg-secondary': null }}">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.1876 27.9584H19.8126C26.1667 27.9584 28.7084 25.4167 28.7084 19.0625V11.4375C28.7084 5.08335 26.1667 2.54169 19.8126 2.54169H12.1876C5.83341 2.54169 3.29175 5.08335 3.29175 11.4375V19.0625C3.29175 25.4167 5.83341 27.9584 12.1876 27.9584Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M12.1874 12.7083C13.5911 12.7083 14.7291 11.5704 14.7291 10.1667C14.7291 8.76294 13.5911 7.625 12.1874 7.625C10.7837 7.625 9.64575 8.76294 9.64575 10.1667C9.64575 11.5704 10.7837 12.7083 12.1874 12.7083Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

@@ -58,7 +58,8 @@
                     "views" => "30k views",
                     "channel" => "Hello",
                     "channelLink" => "npm install @tailwindcss/line-clamps",
-                    "profile" => "https://images5.alphacoders.com/587/587597.jpg"
+                    "profile" => "https://images5.alphacoders.com/587/587597.jpg",
+                    "thumbnail" => "https://images5.alphacoders.com/587/587597.jpg"
                 ]
             ];
         @endphp

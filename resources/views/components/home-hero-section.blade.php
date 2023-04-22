@@ -27,7 +27,7 @@
                     "name"=>"ewr",
                     "route"=>"wre"
                 ],[
-                    "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+                    "img"=>"https://m.media-amazon.com/images/I/811WvXGGgIL.png",
                     "name"=>"ewr",
                     "route"=>"wre"
                 ],[
@@ -35,7 +35,7 @@
                     "name"=>"ewr",
                     "route"=>"wre"
                 ],[
-                    "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+                    "img"=>"https://blog.busuu.com/wp-content/uploads/2021/08/learn-japanese-anime.jpg",
                     "name"=>"ewr",
                     "route"=>"wre"
                 ],[
