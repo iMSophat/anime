@@ -6,7 +6,7 @@
 @endsection
 @section('content')
 
-<div class="p-4 flex gap-3 flex-wrap overflow-x-auto items-center" id="label-button-section">
+<div class="p-4 flex gap-3 flex-wrap overflow-x-auto items-center">
     <div class="flex flex-col gap-y-4">
         <div class="flex gap-x-3">
             Region:
@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4" id="video-card-section">
+<x-panel.grid>
     {{-- <x-card-holder /> --}}
     @for ($i = 0; $i < 32; $i++)
         @php
@@ -78,6 +78,6 @@
         @endphp
         <x-video-card :video-card="$videoCard"/>
     @endfor
-</div>
+</x-panel.grid>
 
 @endsection

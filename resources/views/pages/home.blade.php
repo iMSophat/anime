@@ -98,7 +98,7 @@
 
 <x-heading-title title="Random"/>
 
-<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4" id="video-card-section">
+<x-panel.grid>
     {{-- <x-card-holder /> --}}
     @for ($i = 0; $i < 30; $i++)
         @php
@@ -115,7 +115,8 @@
         @endphp
         <x-video-card :video-card="$videoCard"/>
     @endfor
-</div>
+</x-panel.grid>
+
 
 @endsection
 

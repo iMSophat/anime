@@ -14,7 +14,7 @@ class homeHeroSection extends Component
      */
     public function __construct(
         $heroSection = "",
-        $trendingVideos = ""
+        $trendingVideos = []
     )
     {
         $this->heroSection = $heroSection;
