@@ -39,6 +39,9 @@
             </svg>
         </button>
 
-        <x-button-primary fun="none" title="Sign Up"/>
+        
+        <a href="{{ route('login.index') }}" rel="unfollow" class="bg-primary flex-shrink-0 text-sm font-roboto font-medium text-white p-1.5 px-4 rounded-full">
+            Sign Up
+        </a>
     </div>
 </div>

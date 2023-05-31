@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\animeController;
+use App\Http\Controllers\authController;
 use App\Http\Controllers\categoryController;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\playerContoller;
@@ -32,3 +33,5 @@ Route::get('/trending', [trendingController::class, 'index'])->name('trending.in
 Route::get('/anime', [animeController::class, 'index'])->name('anime.index');               /* Handle Anime */ 
 Route::get('/wallpaper', [wallpaperController::class, 'index'])->name('wallpaper.index');   /* Handle Anime */ 
 Route::get('/category',[categoryController::class,'index'])->name('category.index');
+
+Route::get('/login',[authController::class,'index'])->name('login.index');
