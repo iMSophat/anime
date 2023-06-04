@@ -35,3 +35,5 @@ Route::get('/wallpaper', [wallpaperController::class, 'index'])->name('wallpaper
 Route::get('/category',[categoryController::class,'index'])->name('category.index');
 
 Route::get('/login',[authController::class,'index'])->name('login.index');
+Route::get('/register', [authController::class, 'register'])->name('register.index');
+Route::get('/otp', [authController::class, 'otp'])->name('otp.index');
