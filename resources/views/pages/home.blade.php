@@ -1,16 +1,66 @@
 @extends('layouts.master')
+@section('style')
+<link rel="stylesheet" href="{{ mix('css/carousel.css') }}">
+@endsection
+
 @section('sidebar')
 
 <x-sidebar />
 
 @endsection
 @section('content')
+@php
+    $trendingVideos = [
+        [
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://m.media-amazon.com/images/I/811WvXGGgIL.png",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://blog.busuu.com/wp-content/uploads/2021/08/learn-japanese-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ],[
+            "img"=>"https://wallpapersmug.com/large/c4e351/beautiful-nezuko-kamado-anime.jpg",
+            "name"=>"ewr",
+            "route"=>"wre"
+        ]
+    ];
+@endphp
 
 <div class="p-4" id="hits-section">
     {{-- <x-hits-section-holder/> --}}
-    <x-home-hero-section hero-section=""/>
+    <x-home-hero-section hero-section="" :trendingVideos="$trendingVideos"/>
     
 </div>
+
 
 <x-heading-title title="Categories"/>
 
@@ -48,7 +98,7 @@
 
 <x-heading-title title="Random"/>
 
-<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4" id="video-card-section">
+<x-panel.grid>
     {{-- <x-card-holder /> --}}
     @for ($i = 0; $i < 30; $i++)
         @php
@@ -65,6 +115,49 @@
         @endphp
         <x-video-card :video-card="$videoCard"/>
     @endfor
-</div>
+</x-panel.grid>
+
+
+@endsection
+
+@section('script')
+<script type="text/javascript" src="{{ mix('js/carousel.js') }}"></script>
+<script>
+    $(document).ready(function () {
+        // $('.slide').slick({
+        //     dots: true,
+        //     autoplay: true,
+        //     autoplaySpeed: 2000,
+        //     infinite: true,
+
+        // });
+
+        $('.slide').slick({
+            dots: true,
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 5,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 
 @endsection

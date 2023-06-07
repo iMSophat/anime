@@ -4,21 +4,16 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class homeHeroSection extends Component
+class category-card extends Component
 {
-    public $heroSection,$trendingVideos;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(
-        $heroSection = "",
-        $trendingVideos = []
-    )
+    public function __construct()
     {
-        $this->heroSection = $heroSection;
-        $this->trendingVideos = $trendingVideos;
+        //
     }
 
     /**
@@ -28,6 +23,6 @@ class homeHeroSection extends Component
      */
     public function render()
     {
-        return view('components.home-hero-section');
+        return view('components.category-card');
     }
 }

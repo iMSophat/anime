@@ -14,5 +14,9 @@ const mix = require('laravel-mix');
 mix.js("resources/js/app.js", "public/js")
     .postCss("resources/css/app.css", "public/css", [
         require("tailwindcss"),
-    ]);
-mix.version();
+    ])
+    .js('resources/js/carousel.js', 'js/carousel.js')
+    .js('resources/js/jquery.js', 'js/jquery.js')
+    .less('resources/less/carousel.less', 'css/carousel.css')
+    
+if (mix) mix.version()

@@ -1,4 +1,7 @@
 {
-    "/js/app.js": "/js/app.js?id=8bf6db7211243bb5cbf673557fad76dc",
-    "/css/app.css": "/css/app.css?id=76750e61b30d575cb0a73768d2cefe1a"
+    "/js/app.js": "/js/app.js?id=37f805386d4eaff1ea90fe53d8fdfd88",
+    "/js/carousel.js": "/js/carousel.js?id=8a0058ecad032d86521c4077ed4f1536",
+    "/js/jquery.js": "/js/jquery.js?id=0242f3cc3fb2141fa674a6e51c224dbc",
+    "/css/app.css": "/css/app.css?id=f2e398d28a88d368a7346d9e0fea9ee2",
+    "/css/carousel.css": "/css/carousel.css?id=6712cd8227bc22c693dd8d6215ce9f15"
 }

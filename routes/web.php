@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\animeController;
+use App\Http\Controllers\authController;
+use App\Http\Controllers\categoryController;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\playerContoller;
 use App\Http\Controllers\trendingController;
@@ -30,3 +32,8 @@ Route::get('/watch/{every}', [playerContoller::class, 'index']);                
 Route::get('/trending', [trendingController::class, 'index'])->name('trending.index');
 Route::get('/anime', [animeController::class, 'index'])->name('anime.index');               /* Handle Anime */ 
 Route::get('/wallpaper', [wallpaperController::class, 'index'])->name('wallpaper.index');   /* Handle Anime */ 
+Route::get('/category',[categoryController::class,'index'])->name('category.index');
+
+Route::get('/login',[authController::class,'index'])->name('login.index');
+Route::get('/register', [authController::class, 'register'])->name('register.index');
+Route::get('/otp', [authController::class, 'otp'])->name('otp.index');
