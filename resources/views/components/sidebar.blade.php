@@ -69,7 +69,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
+                <a href="{{ route('following.index') }}" class="flex gap-3 rounded-lg py-1.5 px-2 w-full items-center hover:bg-secondary text-base">
                     <svg class="h-6 w-6 transition-all duration-300 flex-shrink-0" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M28.289 18.1729L27.7807 24.5271C27.5901 26.4715 27.4376 27.9584 23.9936 27.9584H8.00651C4.56255 27.9584 4.41005 26.4715 4.21942 24.5271L3.71109 18.1729C3.60942 17.1181 3.93984 16.1396 4.53713 15.3898C4.54984 15.3771 4.54984 15.3771 4.56255 15.3644C5.26151 14.5129 6.3163 13.9792 7.49817 13.9792H24.5019C25.6838 13.9792 26.7259 14.5129 27.4121 15.339C27.4248 15.3517 27.4376 15.3644 27.4376 15.3771C28.0603 16.1269 28.4034 17.1054 28.289 18.1729Z" stroke="#121212" stroke-width="1.5" stroke-miterlimit="10"/>
                         <path d="M5.198 14.5257V7.98088C5.198 3.66004 6.27821 2.57983 10.599 2.57983H12.213C13.827 2.57983 14.1955 3.06275 14.8055 3.87608L16.4195 6.0365C16.8261 6.57025 17.0676 6.90067 18.1478 6.90067H21.3884C25.7092 6.90067 26.7895 7.98088 26.7895 12.3017V14.5765" stroke="#121212" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>

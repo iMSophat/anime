@@ -7,6 +7,7 @@ use App\Http\Controllers\homeController;
 use App\Http\Controllers\playerContoller;
 use App\Http\Controllers\trendingController;
 use App\Http\Controllers\wallpaperController;
+use App\Http\Controllers\followingController;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -33,6 +34,7 @@ Route::get('/trending', [trendingController::class, 'index'])->name('trending.in
 Route::get('/anime', [animeController::class, 'index'])->name('anime.index');               /* Handle Anime */ 
 Route::get('/wallpaper', [wallpaperController::class, 'index'])->name('wallpaper.index');   /* Handle Anime */ 
 Route::get('/category',[categoryController::class,'index'])->name('category.index');
+Route::get('/following',[followingController::class,'index'])->name('following.index');
 
 Route::get('/login',[authController::class,'index'])->name('login.index');
 Route::get('/register', [authController::class, 'register'])->name('register.index');
